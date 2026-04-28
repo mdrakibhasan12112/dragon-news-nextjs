@@ -43,7 +43,7 @@ const NewsCard = ({ news }) => {
             className="w-full"
           />
         </figure>
-        <p>{news.details}</p>
+        <p className='line-clamp-4'>{news.details}</p>
 
         <div className="flex justify-between items-center">
           <div className="flex gap-2 items-center">
